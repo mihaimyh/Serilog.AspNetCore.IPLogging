@@ -4,9 +4,9 @@ using System;
 
 namespace Serilog.AspNetCore.IPLogging
 {
-    public static class ApplicationBuilderExtensions
+    public static class LoggingApplicationBuilderExtensions
     {
-        public static IApplicationBuilder UseSerilogRequestLogging(this IApplicationBuilder app)
+        public static IApplicationBuilder UseIPAddressLogging(this IApplicationBuilder app)
         {
             if (app == null) throw new ArgumentNullException(nameof(app));
 
