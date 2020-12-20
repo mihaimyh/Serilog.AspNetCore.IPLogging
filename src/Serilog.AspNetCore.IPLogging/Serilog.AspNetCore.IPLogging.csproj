@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net5.0</TargetFrameworks>
-		<Version>0.3.1-alpha</Version>
+		<Version>0.3.1</Version>
 		<Authors>Mihai Dumitru</Authors>
 		<PackageProjectUrl>https://github.com/mihaimyh/Serilog.AspNetCore.IPLogging</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/mihaimyh/Serilog.AspNetCore.IPLogging</RepositoryUrl>
